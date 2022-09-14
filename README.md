@@ -1,5 +1,6 @@
 # Friend Matchmaking Application
 Created an application where users can create an account and find friends based on criteria. Can search for friends based on interest, hobbies, ethnicity, location, etc. Created a fullstack application. Used streamlit (python) for the frontend.
+[Link to Report](https://docs.google.com/document/d/1nOsXLhz1_0SeUuwkMbP8YDQoOhkzi-wV/edit?usp=sharing&ouid=116018696439002773469&rtpof=true&sd=true)
 
 ## Setup:
 Please review section Setup Environment in the Report to ensure you have Streamlit set up
