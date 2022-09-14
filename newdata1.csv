@@ -1,0 +1,11 @@
+userRole,username,passcode,age,status,sex,orientation,bodytypeClean,body_type,diet type,diet,drinks,drugs,education,ethnicity,height,income,job,last_online,location,offspring,pets,religion,sign,smokes,orid lang,english,spanish,french,other,friendMatch,userID
+admin,admin1,175090,22,single,m,straight,4,chubby,0,0,1,0,undergrad,asian,75,0,hospitality,2012-06-28-20-30,california,0,0,agnosticism,gemini,1,english,1,0,0,0,0,1
+admin,admin2,38943,35,single,m,straight,3,average,0,0,1,1,undergrad,white,70,80000,hospitality,2012-06-29-21-41,california,0,0,agnosticism,cancer,0,english (fluently)  spanish (poorly)  french (poorly),1,1,1,0,0,2
+admin,admin3,49651,38,available,m,straight,1,thin,0,0,1,0,graduated,other,68,0,other,2012-06-27-09-10,california,0,1,other,pisces but it doesn&rsquo;t matter,0,english  french  c++,1,0,1,1,0,3
+admin,admin4,54587,23,single,m,straight,1,thin,1,1,1,0,undergrad,white,71,20000,student,2012-06-28-14-22,california,0,0,other,pisces,0,english  german (poorly),1,0,0,0,0,4
+admin,admin5,94363,29,single,m,straight,2,fit,0,0,1,0,graduated,asian,66,0,artist,2012-06-27-21-26,california,0,0,other,aquarius,0,english,1,0,0,0,0,5
+admin,admin6,22738,29,single,m,straight,3,average,0,0,1,0,graduated,white,67,0,tech,2012-06-29-19-18,california,0,0,atheism,taurus,0,english (fluently)  chinese (okay),1,0,0,0,0,6
+admin,admin7,149608,32,single,f,straight,2,fit,0,0,1,0,graduated,white,65,0,other,2012-06-25-20-45,california,0,0,other,virgo,0,english,1,0,0,0,0,7
+admin,admin8,135926,31,single,f,straight,3,average,0,0,1,0,graduated,white,65,0,artist,2012-06-29-12-30,california,0,0,christianity,sagittarius,0,english  spanish (okay),1,1,0,0,0,8
+user,user9,21803,24,single,f,straight,0,n/a,0,0,1,0,graduated,white,67,0,other,2012-06-29-23-39,california,0,0,christianity,gemini but it doesn&rsquo;t matter,1,english,1,0,0,0,10,9
+user,user10,32224,37,single,m,straight,2,fit,0,0,0,0,undergrad,white,65,0,student,2012-06-28-21-08,california,0,0,atheism,cancer but it doesn&rsquo;t matter,0,english (fluently),1,0,0,0,9,10

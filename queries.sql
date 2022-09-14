@@ -1,0 +1,49 @@
+CREATE DATABASE IF NOT EXISTS cpsc408;
+
+use cpsc408;
+
+CREATE TABLE IF NOT EXISTS person(
+userID INTEGER NOT NULL PRIMARY KEY,
+age INT,
+income INT ,
+sex VARCHAR(4),
+ethnicity VARCHAR(50),
+body_type VARCHAR(100),
+height INT,
+orientation VARCHAR(20)
+);
+
+CREATE TABLE IF NOT EXISTS profile(
+profileID INTEGER NOT NULL PRIMARY KEY,
+personID INTEGER NOT NULL,
+pets VARCHAR(50),
+offspring VARCHAR(80),
+job VARCHAR(50),
+education VARCHAR(80),
+speaks VARCHAR(100),
+religion VARCHAR(50),
+sign VARCHAR(20),
+CONSTRAINT FK_personID FOREIGN KEY (personID) REFERENCES person(userID)
+);
+
+CREATE TABLE IF NOT EXISTS matches(
+matchID INTEGER NOT NULL PRIMARY KEY,
+profileID INTEGER,
+CONSTRAINT FK_profileID FOREIGN KEY (profileID) REFERENCES profile(profileID)
+);
+
+CREATE TABLE IF NOT EXISTS survey(
+profileID INTEGER NOT NULL PRIMARY KEY,
+survey1 INT,
+survey2 INT,
+survey3 INT
+);
+
+CREATE TABLE IF NOT EXISTS management(
+profileID INTEGER NOT NULL PRIMARY KEY,
+username VARCHAR(50),
+password VARCHAR(50),
+roll VARCHAR(20)
+);
+
+
